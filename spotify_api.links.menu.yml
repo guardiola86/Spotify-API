@@ -1,0 +1,5 @@
+spotify_api.settings:
+  title: 'Spotify API'
+  description: 'Configure the settings for spotify api.'
+  route_name: spotify_api.settings
+  parent: system.admin_config_system

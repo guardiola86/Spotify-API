@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Contains spotify_api.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function spotify_api_theme() {
+  return [
+    'block_spotify_api' => [
+      'variables' => ['artists_array' => NULL],
+      'template' => 'block-spotify-api'
+    ],
+    'artist_page' => [
+      'variables' => ['artist' => NULL],
+      'template' => 'artist-page'
+    ]
+  ];
+}

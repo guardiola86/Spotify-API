@@ -1,0 +1,8 @@
+name: 'Spotify API'
+type: module
+description: 'Module that integrates with Spotify API'
+core: 8.x
+core_version_requirement: '^8 || ^9'
+configure: spotify_api.settings
+dependencies:
+  - block
